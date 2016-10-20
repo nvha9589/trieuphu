@@ -1,0 +1,1423 @@
+2016-08-06 12:38:33 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#12 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#14 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#20 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#18 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#21 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2016-08-06 12:38:32 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'VW5fUUZWeVEwCDJhDGUKAh8WPiYPZio1GFwqYA9lKwZ4NgAgdBVIIg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-2d6c6213-6fe4-4fde-9e22-3b4db14a7f60'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62251'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '202'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '202'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470458312.8481
+    'REQUEST_TIME' => 1470458312
+]
+2016-08-06 12:47:14 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#12 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#14 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#20 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#18 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#21 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2016-08-06 12:47:14 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'bEpNYWtod2UJLCBRIVsENiYyLBYiWCQBIXg4UCJbJTJBEhIQWStGFg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-f0341171-9056-4df4-9dd1-a34913fca163'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62314'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470458834.3329
+    'REQUEST_TIME' => 1470458834
+]
+2016-08-06 12:50:48 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#12 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#14 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#20 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#18 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#21 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2016-08-06 12:50:48 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'bEpNYWtod2UJLCBRIVsENiYyLBYiWCQBIXg4UCJbJTJBEhIQWStGFg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-f0341171-9056-4df4-9dd1-a34913fca163'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62335'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470459048.6612
+    'REQUEST_TIME' => 1470459048
+]
+2016-08-06 12:51:03 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#12 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#14 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#20 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#18 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#21 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2016-08-06 12:51:03 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'aEI2QWVvMGUNJFtxL1xDNiI6VzYsX2MBJXBDcCxcYjJFGmkwVywBFg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-f0341171-9056-4df4-9dd1-a34913fca163'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62335'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470459063.7771
+    'REQUEST_TIME' => 1470459063
+]
+2016-08-06 12:52:17 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#12 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#14 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#20 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php(480): yii\db\Connection->getSlavePdo()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Connection.php(760): yii\db\Schema->quoteValue('<span class="st...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(869): yii\db\Command->getRawSql()
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#8 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#18 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#21 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2016-08-06 12:52:17 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'aEI2QWVvMGUNJFtxL1xDNiI6VzYsX2MBJXBDcCxcYjJFGmkwVywBFg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-f0341171-9056-4df4-9dd1-a34913fca163'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62335'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470459137.9143
+    'REQUEST_TIME' => 1470459137
+]
+2016-08-06 16:03:20 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::password_hash' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('password_hash')
+#1 E:\Project\Workspace\foresta\common\models\User.php(153): yii\db\BaseActiveRecord->__get('password_hash')
+#2 E:\Project\Workspace\foresta\common\models\LoginForm.php(45): common\models\User->validatePassword('123123')
+#3 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#7 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#8 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#9 [internal function]: backend\controllers\SiteController->actionLogin()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#13 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/login', Array)
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+2016-08-06 16:03:20 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'aEI2QWVvMGUNJFtxL1xDNiI6VzYsX2MBJXBDcCxcYjJFGmkwVywBFg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-8e25995c-2d23-4a43-9325-d4cff3327cb9'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '63062'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470470600.7049
+    'REQUEST_TIME' => 1470470600
+]
+2016-08-06 16:05:18 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#7 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#8 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#13 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#19 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+The SQL being executed was: SELECT * FROM `tbl_admin` WHERE (`username`='admin') AND (`status`=1)' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 E:\Project\Workspace\foresta\common\models\User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 E:\Project\Workspace\foresta\common\models\LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#7 E:\Project\Workspace\foresta\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#8 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#9 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#12 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#13 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#16 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#17 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#18 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#19 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'status' in 'where clause'
+)
+
+2016-08-06 16:05:18 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'aEI2QWVvMGUNJFtxL1xDNiI6VzYsX2MBJXBDcCxcYjJFGmkwVywBFg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-8e25995c-2d23-4a43-9325-d4cff3327cb9'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '63078'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470470718.3327
+    'REQUEST_TIME' => 1470470718
+]
+2016-08-06 16:08:29 [::1][-][qad8je9a7kfju58o9dg6e600m5][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::password_hash' in E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('password_hash')
+#1 E:\Project\Workspace\foresta\common\models\User.php(153): yii\db\BaseActiveRecord->__get('password_hash')
+#2 E:\Project\Workspace\foresta\common\models\LoginForm.php(45): common\models\User->validatePassword('123456')
+#3 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#4 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#5 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\validators\Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#6 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#7 E:\Project\Workspace\foresta\common\models\LoginForm.php(58): yii\base\Model->validate()
+#8 E:\Project\Workspace\foresta\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#9 [internal function]: backend\controllers\SiteController->actionLogin()
+#10 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#13 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/login', Array)
+#14 E:\Project\Workspace\foresta\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\Project\Workspace\foresta\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+2016-08-06 16:08:29 [::1][-][qad8je9a7kfju58o9dg6e600m5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'QUtYU0NkNXgkLTVjCVdGKwszOSQKVGYcDHktYgpXZy9sEwcicScECw=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123456'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'wp-settings-time-1' => '1467973919'
+    '_ga' => 'GA1.1.1229641084.1470131378'
+    'advanced-backend' => 'qad8je9a7kfju58o9dg6e600m5'
+    '_csrf-backend' => '2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-8e25995c-2d23-4a43-9325-d4cff3327cb9'
+    'PHPRC' => 'C:\\PHP\\v5.5\\'
+    'PHP_FCGI_MAX_REQUESTS' => '10000'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\cms foresta\\cms foresta.config'
+    'APP_POOL_ID' => 'cms foresta'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HA-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_EM64T_REDIST11' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\OpenSSL-Win64\\bin\\openssl.cfg'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\Driver\\Oracle\\InstallClient32;D:\\Driver\\Oracle\\instantclient_10_2;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\PHP\\v5.5;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'HA-PC$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/7.5'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '22224'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '63096'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'PATH_TRANSLATED' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/35'
+    'INSTANCE_NAME' => 'CMS FORESTA'
+    'INSTANCE_ID' => '35'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'E:\\Project\\Workspace\\foresta\\backend\\web'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '205'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'E:\\Project\\Workspace\\foresta\\backend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/35/ROOT'
+    'IIS_UrlRewriteModule' => '7.1.0871.0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_REFERER' => 'http://localhost:22224/index.php?r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:22224'
+    'HTTP_COOKIE' => 'wp-settings-time-1=1467973919; _ga=GA1.1.1229641084.1470131378; advanced-backend=qad8je9a7kfju58o9dg6e600m5; _csrf-backend=2782b7ff85f6e593324e007e0c209185a420cadaafd4eae4985be1e9d57bbcbea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22efm0J3sSJxawI0SdM2u1I3RW-X_q2C1s%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_LENGTH' => '205'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1470470909.7486
+    'REQUEST_TIME' => 1470470909
+]

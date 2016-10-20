@@ -1,0 +1,235 @@
+body {background:url(../images/bg.jpg) no-repeat center 0 fixed;
+	font-family: 'Play', sans-serif; font-weight:400; font-size:14px; background-size:100%; overflow-x:hidden; overflow-y:scroll;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.col-md-5 {
+    width: 41.66666667%;
+}
+.col-md-7 {
+    width: 58.33333333%;
+}
+.bg-green {padding:15px; background:rgba(131, 186, 22, 1); font-size:18px; margin:20px -50px;}
+.pic img {border:2px solid rgba(131, 186, 22, 1);}
+.bg-green a:hover{ color:#fff;}
+.container {width:1000px}
+.collapse.carousel.slide {display:block; box-shadow:none;}
+.col-md-8 .media-left a {display:block; width:300px}
+.title-box h2{ font-size:18px; margin:0 0 10px;border-bottom:1px solid #fff; padding-bottom:5px;}
+.media-object {min-width:70px; min-height:50px}
+.box-detail {padding:15px; background-color:#000}
+.col-md-8 .media-heading {
+    color: #83C244;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.col-md-4 .media-heading {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+a {color:#fff}
+a:hover, a:focus {color:#83C244}
+.col-md-4 .media-heading a { color:#fff}
+.time {color:#999}
+.media-body .readmore {text-align:left}
+.media-body .readmore a {
+    background-color: rgba(131, 186, 22, 0.22);
+    display: inline-block; transition:color 0.4s ease 0s;
+    border: solid rgba(131, 186, 22, 1) 0px;
+    cursor: pointer !important;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+}
+.media-body .readmore a:hover { background-color:#fff;color:#83C244}
+.col-md-8 .media {
+    margin-bottom: 30px;
+    background: #000;
+    padding: 15px;
+}
+.col-md-4 .media {
+    margin-bottom: 15px;
+    background: #000;
+    padding: 15px;
+}
+@media (min-width: 1200px) {
+.list-col2 li img{min-height:300px}
+.pic-list {height:300px;}
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Play', sans-serif; font-weight:400;}
+.menu_nav.carousel-indicators {
+    position: absolute;
+    float: right;
+    left: inherit;
+    top: 100px;
+    width: 670px;
+    right: 0;
+    z-index: 15;
+    bottom: inherit;
+    padding-left: 0;
+    margin-left: inherit;
+    text-align: inherit;
+    list-style: none;
+}
+.menu_nav.carousel-indicators li {
+    display: block; float:left; padding:10px;
+    height: inherit; color:#fff;
+    margin: inherit; text-indent:0;
+    cursor: pointer;
+    background-color:none;
+    border:inherit;
+    border-radius:inherit; border-left:1px solid rgba(51, 51, 51, 1); width:125px; text-align:center;
+}
+.navbar-static-top .container  { background:url(../images/bg_top.jpg) repeat-x 0 0;}
+.menu_nav.carousel-indicators .active { background:none; color:#83C244}
+.menu_nav.carousel-indicators li.nav-home:first-child {
+    border: 0;
+}
+.address {
+    border-left: 1px solid #fff;
+    padding: 15px 0 15px 15px;
+    margin-bottom: 20px;
+}
+.form-control {
+    font: normal normal normal 16px/1.4em Play,sans-serif;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid rgba(131, 194, 68, 1);
+    color: #FFFFFF;
+    margin: 0 0 5px; border-radius:0;
+    width: 100%;
+}
+.about, .home {margin-top:250px}
+.navbar-static-top .carousel-inner { margin-top:160px;color:#fff; min-height:500px;padding-bottom:30px; overflow:inherit;}
+.footer { background:url(../images/tran.png) repeat 0 0; margin-top:20px; color:#fff; padding:10px 0; min-width:1000px;visibility:inherit !important; z-index:2}
+.navbar-collapse.carousel {margin-left:-15px; margin-right:-15px}
+.title h2 {font-size:70px; color:rgba(131,186,22,1);}
+.title h3 {font-size:50px; color:rgba(131,186,22,1); margin-bottom:20px;}
+.title h5 {font-size:24px; color:#fff;}
+.title h6 {font-size:18px; }
+.carousel-inner>.item.active {background:url(../images/tran.png) repeat 0 0;}
+.carousel-inner>.item {padding:50px; opacity:0;}
+img {max-width:100%}
+.space {
+	left: 145px;
+    width: 5px;
+    position: absolute;
+    transform: rotate(270deg) translateZ(0px);
+    top: 0;
+    height: 282px;
+    border-left: 1px solid rgba(153, 153, 153, 1);
+    margin-left: -0.5px;
+    width: 0 !important;
+    min-width: 0 !important;
+}
+.patop50 {padding-top:50px; }
+.about .col-md-7 {border-left:1px solid rgba(153, 153, 153, 1)}
+ol, ul {padding-left:15px}
+ul.list-col2 {list-style:none; margin:0; padding:0; display:inline-block; width:100%}
+.list-col2 li { margin-bottom:25px; width:50%; padding-right:15px; padding-left:15px; float:left}
+.list-col2 li img{ width:100%; height:auto;}
+.list-col2 li a:hover img{ opacity:.8;}
+.pic-list {overflow:hidden; display:block; margin-bottom:15px}
+.pic-list img{ display:none;}
+.pic-list img:first-child{ display:block;}
+.list-col2 li a{ display:block; color:#fff;}
+.list-col2 li a:hover{ color:#83C244; text-decoration:none;}
+.list-col2 li strong{ display:block;}
+.list-col2 li span.descrip{ display:block; height:36px; overflow:hidden; color:#999}
+.readmore {text-align:center; padding:15px 0}
+.readmore a { text-decoration:underline; color:#666}
+
+#lightbox ul {
+	overflow: hidden;
+}
+/*Image styles*/
+/*No right margin for images in the 2nd column*/
+#lightbox ul li:nth-child(even) {
+	margin-right: 0;
+}
+
+
+#lightbox li:hover {
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.75);
+}
+#lightbox li:hover .image_title {
+	opacity: 1;
+}
+#lightbox li:hover .title {
+	transform: scale(1);
+}
+
+/*Lets change the iconfont to websymbols since entypo has some issues with rendering on windows*/
+
+/*Lightbox element style*/
+.lb_backdrop {
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0; z-index:1000;
+}
+/*The canvas contains the larger image*/
+.lb_canvas {
+	text-align:center;
+	width: 50px; height: 50px;
+	position: fixed;
+	top: 0; left: 0; /*Will be centered later by Jquery*/
+	box-shadow: 0 0 20px 5px black;
+	padding: 10px; z-index:1000;
+}
+/*A separate class for loading GIF, for easy Jquery handling*/
+.lb_canvas.loading {
+	background: white url(../images/loading.gif) center center no-repeat;
+}
+/*Lightbox Controls*/
+.lb_controls {
+    z-index: 1000;
+    position: fixed;
+    bottom: 50px;
+    color: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.lb_controls span {
+	line-height: 30px;
+	height: 40px;
+}
+.lb_controls span.inactive {
+	opacity: 0.25;
+}
+.lb_previous, .lb_next {
+	position: absolute;
+	top: 0;
+	padding: 5px 12px;
+	font-size: 14px;
+	background: black;
+	cursor: pointer; text-indent:-9999px; outline:none;
+}
+.lb_previous { background:url(../images/arrow_left.png) no-repeat 0 0;
+	left: 0;
+	position:fixed; top:50%;
+}
+
+.lb_next { background:url(../images/arrow_right.png) no-repeat 0 0;
+	right: 0;
+	 position:fixed; top:50%;
+}
+.lb_title {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-weight: bold;
+}
+.lb_canvas img { border:2px solid #fff;}
+.btn-primary.hover, .btn-primary:focus, .btn-primary {background-color:rgba(128, 194, 62, 1); color:#000; border:none;}
+@media (max-width: 761px) {
+	body { background-size:cover;}
+	.menu_nav.carousel-indicators {top:40px}
+	.menu_nav.carousel-indicators li {border:none}
+}

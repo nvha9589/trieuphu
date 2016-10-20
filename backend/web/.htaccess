@@ -1,0 +1,17 @@
+#Options +FollowSymLinks
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
+IndexIgnore */*
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+                                        
+# otherwise forward it to index.php   
+RewriteRule . index.php  
+#php_flag apc.cache_by_default Off
+

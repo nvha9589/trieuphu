@@ -1,0 +1,419 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:9:"5.6.17RC1";s:10:"yiiVersion";s:5:"2.0.9";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.9";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:9:"5.6.17RC1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:7:{s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:65:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:63:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:59:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:57:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:59:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-faker";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:65:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-swiftmailer";}}s:20:"yiisoft/yii2-imagine";a:3:{s:4:"name";s:20:"yiisoft/yii2-imagine";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:12:"@yii/imagine";s:61:"D:\Project\WorkSpace\ailatrieuphu\vendor/yiisoft/yii2-imagine";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:12:{s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:14:"content-length";s:4:"7487";s:14:"x-original-url";s:12:"/system/rule";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:72:"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0";s:7:"referer";s:34:"http://localhost:10002/system/rule";s:4:"host";s:15:"localhost:10002";s:6:"cookie";s:227:"PHPSESSID=kta8f1sj3qcekiurr23it6dra0; _csrf-backend=b272ea351ce15db1e4e0a390d04c476505de754703ef0a89cf121f2c6c10438ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22vQ4hN82HO2x1uzF31yg4bubyE8pc7eCt%22%3B%7D";s:15:"accept-language";s:35:"vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3";s:15:"accept-encoding";s:13:"gzip, deflate";s:6:"accept";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:10:"connection";s:10:"keep-alive";}s:15:"responseHeaders";a:5:{s:12:"X-Powered-By";s:13:"PHP/5.6.17RC1";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:11:"system/rule";s:6:"action";s:50:"backend\controllers\SystemController::actionRule()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:7487:"name=rule&content=%3Ctable+style%3D%22width%3A+100%25%3B+text-align%3A+center%3B+margin-left%3A+auto%3B+margin-right%3A+auto%3B%22+border%3D%221%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%0D%0A%3Ctbody%3E%0D%0A%3Ctr+style%3D%22background-color%3A+%2368a5de%3B%22%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3ESTT%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EC%C3%A2u+h%E1%BB%8Fi+%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EM%E1%BB%A9c+ti%E1%BB%81n+t%C6%B0%C6%A1ng+%E1%BB%A9ng%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EGhi+ch%C3%BA%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E1%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+1%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E5.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E2%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+2%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E7.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E3%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+3%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E10.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E4%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+4%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E20.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3E5%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EC%C3%A2u+5%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3E50.000+VN%C4%90%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EM%E1%BB%91c+c%C3%A2u+h%E1%BB%8Fi+quan+tr%E1%BB%8Dng+s%E1%BB%91+1%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E6%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+6%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E70.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E7%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+7%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E100.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E8%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+8%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E150.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E9%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+9%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E200.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3E10%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EC%C3%A2u+10%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3E300.000+VN%C4%90%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EM%E1%BB%91c+c%C3%A2u+h%E1%BB%8Fi+quan+tr%E1%BB%8Dng+s%E1%BB%91+2%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E11%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+11%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E350.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E12%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+12%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E400.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E13%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+13%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E500.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E14%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3EC%C3%A2u+14%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E650.000+VN%C4%90%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%C2%A0%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3Ctr%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3E15%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EC%C3%A2u+15%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3E1.000.0000+VN%C4%90%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3Ctd%3E%0D%0A%3Cp%3E%3Cstrong%3EM%E1%BB%91c+c%C3%A2u+h%E1%BB%8Fi+quan+tr%E1%BB%8Dng+s%E1%BB%91+3%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3C%2Ftd%3E%0D%0A%3C%2Ftr%3E%0D%0A%3C%2Ftbody%3E%0D%0A%3C%2Ftable%3E%0D%0A%3Cp+style%3D%22text-align%3A+justify%3B%22%3E-+Ng%C6%B0%E1%BB%9Di+ch%C6%A1i+l%E1%BA%A7n+l%C6%B0%E1%BB%A3t+tr%E1%BA%A3+l%E1%BB%9Di+c%C3%A1c+c%C3%A2u+h%E1%BB%8Fi+t%E1%BB%AB+1+%C4%91%E1%BA%BFn+15%2C+c%C3%B3+3+m%E1%BB%91c+quan+tr%E1%BB%8Dng+l%C3%A0+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+5+%E2%80%93+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+10+%E2%80%93+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+15%3C%2Fp%3E%0D%0A%3Cp+style%3D%22text-align%3A+justify%3B%22%3E-+Ng%C6%B0%E1%BB%9Di+ch%C6%A1i+c%C3%B3+quy%E1%BB%81n+tr%E1%BB%A3+gi%C3%BAp+l%C3%A0+50-50.+B%E1%BA%AFt+%C4%91%E1%BA%A7u+t%E1%BB%AB+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+6%2C+ng%C6%B0%E1%BB%9Di+ch%C6%A1i+c%C3%B3+th%C3%AAm+1+quy%E1%BB%81n+tr%E1%BB%A3+gi%C3%BAp+n%E1%BB%AFa+l%C3%A0+h%E1%BB%8Fi+%C3%BD+ki%E1%BA%BFn+kh%C3%A1n+gi%E1%BA%A3%3C%2Fp%3E%0D%0A%3Cp+style%3D%22text-align%3A+justify%3B%22%3E-+Ng%C6%B0%E1%BB%9Di+ch%C6%A1i+c%C3%B3+20s+%C4%91%E1%BB%83+tr%E1%BA%A3+l%E1%BB%9Di+m%E1%BB%97i+c%C3%A2u+h%E1%BB%8Fi%2C+n%E1%BA%BFu+qu%C3%A1+20s+kh%C3%B4ng+tr%E1%BA%A3+l%E1%BB%9Di+%C4%91%C6%B0%E1%BB%A3c+th%C3%AC+coi+nh%C6%B0+c%C3%A2u+h%E1%BB%8Fi+%C4%91%C3%B3+ng%C6%B0%E1%BB%9Di+ch%C6%A1i+tr%E1%BA%A3+l%E1%BB%9Di+sai%3C%2Fp%3E%0D%0A%3Cp+style%3D%22text-align%3A+justify%3B%22%3E-+Ng%C6%B0%E1%BB%9Di+ch%C6%A1i+b%E1%BA%AFt+bu%E1%BB%99c+ph%E1%BA%A3i+tr%E1%BA%A3+l%E1%BB%9Di+t%E1%BB%AB+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+1+%C4%91%E1%BA%BFn+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+5.+B%E1%BA%AFt+%C4%91%E1%BA%A7u+t%E1%BB%AB+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+6%2C+ng%C6%B0%E1%BB%9Di+ch%C6%A1i+c%C3%B3+quy%E1%BB%81n+d%E1%BB%ABng+cu%E1%BB%99c+ch%C6%A1i+b%E1%BA%A5t+k%E1%BB%B3+l%C3%BAc+n%C3%A0o.%3C%2Fp%3E%0D%0A%3Cp+style%3D%22text-align%3A+justify%3B%22%3EN%E1%BA%BFu+ng%C6%B0%E1%BB%9Di+ch%C6%A1i+%C4%91%E1%BB%93ng+%C3%BD+d%E1%BB%ABng+cu%E1%BB%99c+ch%C6%A1i%2C+s%E1%BB%91+ti%E1%BB%81n+th%C6%B0%E1%BB%9Fng+ng%C6%B0%E1%BB%9Di+ch%C6%A1i+nh%E1%BA%ADn+%C4%91%C6%B0%E1%BB%A3c+b%E1%BA%B1ng+s%E1%BB%91+ti%E1%BB%81n+t%E1%BA%A1i+m%E1%BB%91c+c%C3%A2u+h%E1%BB%8Fi%2C%3C%2Fp%3E%0D%0A%3Cp+style%3D%22text-align%3A+justify%3B%22%3En%E1%BA%BFu+tr%E1%BA%A3+l%E1%BB%9Di+sai+%E1%BB%9F+c%C3%A2u+h%E1%BB%8Fi+n%C3%A0o+th%C3%AC+s%E1%BB%91+ti%E1%BB%81n+th%C6%B0%E1%BB%9Fng+nh%E1%BA%ADn+%C4%91%C6%B0%E1%BB%A3c+quay+v%E1%BB%81+m%E1%BB%91c+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+5%2C+c%C3%A2u+h%E1%BB%8Fi+s%E1%BB%91+10+t%C3%B9y+v%C3%A0o+m%E1%BB%A9c+%C4%91%E1%BB%99+tr%E1%BA%A3+l%E1%BB%9Di+c%E1%BB%A7a+b%E1%BA%A1n%3C%2Fp%3E";s:17:"Decoded to Params";a:2:{s:4:"name";s:4:"rule";s:7:"content";s:3691:"<table style="width: 100%; text-align: center; margin-left: auto; margin-right: auto;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="background-color: #68a5de;">
+<td>
+<p><strong>STT</strong></p>
+</td>
+<td>
+<p><strong>Câu hỏi </strong></p>
+</td>
+<td>
+<p><strong>Mức tiền tương ứng</strong></p>
+</td>
+<td>
+<p><strong>Ghi chú</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>Câu 1</p>
+</td>
+<td>
+<p>5.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>Câu 2</p>
+</td>
+<td>
+<p>7.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>Câu 3</p>
+</td>
+<td>
+<p>10.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>Câu 4</p>
+</td>
+<td>
+<p>20.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p><strong>5</strong></p>
+</td>
+<td>
+<p><strong>Câu 5</strong></p>
+</td>
+<td>
+<p><strong>50.000 VNĐ</strong></p>
+</td>
+<td>
+<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>6</p>
+</td>
+<td>
+<p>Câu 6</p>
+</td>
+<td>
+<p>70.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>7</p>
+</td>
+<td>
+<p>Câu 7</p>
+</td>
+<td>
+<p>100.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>8</p>
+</td>
+<td>
+<p>Câu 8</p>
+</td>
+<td>
+<p>150.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>9</p>
+</td>
+<td>
+<p>Câu 9</p>
+</td>
+<td>
+<p>200.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p><strong>10</strong></p>
+</td>
+<td>
+<p><strong>Câu 10</strong></p>
+</td>
+<td>
+<p><strong>300.000 VNĐ</strong></p>
+</td>
+<td>
+<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>11</p>
+</td>
+<td>
+<p>Câu 11</p>
+</td>
+<td>
+<p>350.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>12</p>
+</td>
+<td>
+<p>Câu 12</p>
+</td>
+<td>
+<p>400.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>13</p>
+</td>
+<td>
+<p>Câu 13</p>
+</td>
+<td>
+<p>500.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>14</p>
+</td>
+<td>
+<p>Câu 14</p>
+</td>
+<td>
+<p>650.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p><strong>15</strong></p>
+</td>
+<td>
+<p><strong>Câu 15</strong></p>
+</td>
+<td>
+<p><strong>1.000.0000 VNĐ</strong></p>
+</td>
+<td>
+<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>
+<p style="text-align: justify;">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>
+<p style="text-align: justify;">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>
+<p style="text-align: justify;">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>
+<p style="text-align: justify;">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>
+<p style="text-align: justify;">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>";}}s:6:"SERVER";a:99:{s:22:"PROCESSOR_ARCHITEW6432";s:5:"AMD64";s:13:"_FCGI_X_PIPE_";s:53:"\\.\pipe\IISFCGI-cae5728b-9611-4136-a50d-bd4e879b4de4";s:5:"PHPRC";s:12:"C:\PHP\v5.6\";s:21:"PHP_FCGI_MAX_REQUESTS";s:5:"10000";s:15:"ALLUSERSPROFILE";s:14:"C:\ProgramData";s:7:"APPDATA";s:56:"C:\Windows\system32\config\systemprofile\AppData\Roaming";s:15:"APP_POOL_CONFIG";s:73:"C:\inetpub\temp\apppools\cms.ailatrieuphu.com\cms.ailatrieuphu.com.config";s:11:"APP_POOL_ID";s:20:"cms.ailatrieuphu.com";s:18:"CommonProgramFiles";s:35:"C:\Program Files (x86)\Common Files";s:23:"CommonProgramFiles(x86)";s:35:"C:\Program Files (x86)\Common Files";s:18:"CommonProgramW6432";s:29:"C:\Program Files\Common Files";s:12:"COMPUTERNAME";s:5:"HA-PC";s:7:"ComSpec";s:27:"C:\Windows\system32\cmd.exe";s:16:"FP_NO_HOST_CHECK";s:2:"NO";s:12:"LOCALAPPDATA";s:54:"C:\Windows\system32\config\systemprofile\AppData\Local";s:20:"NUMBER_OF_PROCESSORS";s:1:"4";s:2:"OS";s:10:"Windows_NT";s:4:"Path";s:325:"C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;;C:\Program Files\Dell\DW WLAN Card;C:\Program Files (x86)\Skype\Phone\;";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:22:"PROCESSOR_ARCHITECTURE";s:3:"x86";s:20:"PROCESSOR_IDENTIFIER";s:50:"Intel64 Family 6 Model 37 Stepping 2, GenuineIntel";s:15:"PROCESSOR_LEVEL";s:1:"6";s:18:"PROCESSOR_REVISION";s:4:"2502";s:11:"ProgramData";s:14:"C:\ProgramData";s:12:"ProgramFiles";s:22:"C:\Program Files (x86)";s:17:"ProgramFiles(x86)";s:22:"C:\Program Files (x86)";s:12:"ProgramW6432";s:16:"C:\Program Files";s:12:"PSModulePath";s:51:"C:\Windows\system32\WindowsPowerShell\v1.0\Modules\";s:6:"PUBLIC";s:15:"C:\Users\Public";s:11:"SystemDrive";s:2:"C:";s:10:"SystemRoot";s:10:"C:\Windows";s:4:"TEMP";s:15:"C:\Windows\TEMP";s:3:"TMP";s:15:"C:\Windows\TEMP";s:10:"USERDOMAIN";s:9:"WORKGROUP";s:8:"USERNAME";s:6:"HA-PC$";s:11:"USERPROFILE";s:40:"C:\Windows\system32\config\systemprofile";s:6:"windir";s:10:"C:\Windows";s:21:"windows_tracing_flags";s:1:"3";s:23:"windows_tracing_logfile";s:45:"C:\BVTBin\Tests\installpackage\csilogfile.log";s:14:"ORIG_PATH_INFO";s:10:"/index.php";s:3:"URL";s:10:"/index.php";s:15:"SERVER_SOFTWARE";s:17:"Microsoft-IIS/7.5";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:18:"SERVER_PORT_SECURE";s:1:"0";s:11:"SERVER_PORT";s:5:"10002";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:55:"D:\Project\WorkSpace\ailatrieuphu\backend\web\index.php";s:11:"REQUEST_URI";s:12:"/system/rule";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"REMOTE_USER";s:0:"";s:11:"REMOTE_PORT";s:5:"56535";s:11:"REMOTE_HOST";s:3:"::1";s:11:"REMOTE_ADDR";s:3:"::1";s:12:"QUERY_STRING";s:0:"";s:15:"PATH_TRANSLATED";s:55:"D:\Project\WorkSpace\ailatrieuphu\backend\web\index.php";s:10:"LOGON_USER";s:0:"";s:10:"LOCAL_ADDR";s:3:"::1";s:18:"INSTANCE_META_PATH";s:11:"/LM/W3SVC/5";s:13:"INSTANCE_NAME";s:20:"CMS.AILATRIEUPHU.COM";s:11:"INSTANCE_ID";s:1:"5";s:20:"HTTPS_SERVER_SUBJECT";s:0:"";s:19:"HTTPS_SERVER_ISSUER";s:0:"";s:19:"HTTPS_SECRETKEYSIZE";s:0:"";s:13:"HTTPS_KEYSIZE";s:0:"";s:5:"HTTPS";s:3:"off";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:13:"DOCUMENT_ROOT";s:45:"D:\Project\WorkSpace\ailatrieuphu\backend\web";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:4:"7487";s:12:"CERT_SUBJECT";s:0:"";s:17:"CERT_SERIALNUMBER";s:0:"";s:11:"CERT_ISSUER";s:0:"";s:10:"CERT_FLAGS";s:0:"";s:11:"CERT_COOKIE";s:0:"";s:9:"AUTH_USER";s:0:"";s:13:"AUTH_PASSWORD";s:0:"";s:9:"AUTH_TYPE";s:0:"";s:18:"APPL_PHYSICAL_PATH";s:46:"D:\Project\WorkSpace\ailatrieuphu\backend\web\";s:12:"APPL_MD_PATH";s:16:"/LM/W3SVC/5/ROOT";s:20:"IIS_UrlRewriteModule";s:10:"7.1.0871.0";s:13:"UNENCODED_URL";s:12:"/system/rule";s:19:"IIS_WasUrlRewritten";s:1:"1";s:19:"HTTP_X_ORIGINAL_URL";s:12:"/system/rule";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:72:"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0";s:12:"HTTP_REFERER";s:34:"http://localhost:10002/system/rule";s:9:"HTTP_HOST";s:15:"localhost:10002";s:11:"HTTP_COOKIE";s:227:"PHPSESSID=kta8f1sj3qcekiurr23it6dra0; _csrf-backend=b272ea351ce15db1e4e0a390d04c476505de754703ef0a89cf121f2c6c10438ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22vQ4hN82HO2x1uzF31yg4bubyE8pc7eCt%22%3B%7D";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:19:"HTTP_CONTENT_LENGTH";s:4:"7487";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1476625070.7298751;s:12:"REQUEST_TIME";i:1476625070;}s:3:"GET";a:0:{}s:4:"POST";a:2:{s:4:"name";s:4:"rule";s:7:"content";s:3691:"<table style="width: 100%; text-align: center; margin-left: auto; margin-right: auto;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="background-color: #68a5de;">
+<td>
+<p><strong>STT</strong></p>
+</td>
+<td>
+<p><strong>Câu hỏi </strong></p>
+</td>
+<td>
+<p><strong>Mức tiền tương ứng</strong></p>
+</td>
+<td>
+<p><strong>Ghi chú</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>Câu 1</p>
+</td>
+<td>
+<p>5.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>Câu 2</p>
+</td>
+<td>
+<p>7.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>Câu 3</p>
+</td>
+<td>
+<p>10.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>Câu 4</p>
+</td>
+<td>
+<p>20.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p><strong>5</strong></p>
+</td>
+<td>
+<p><strong>Câu 5</strong></p>
+</td>
+<td>
+<p><strong>50.000 VNĐ</strong></p>
+</td>
+<td>
+<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>6</p>
+</td>
+<td>
+<p>Câu 6</p>
+</td>
+<td>
+<p>70.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>7</p>
+</td>
+<td>
+<p>Câu 7</p>
+</td>
+<td>
+<p>100.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>8</p>
+</td>
+<td>
+<p>Câu 8</p>
+</td>
+<td>
+<p>150.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>9</p>
+</td>
+<td>
+<p>Câu 9</p>
+</td>
+<td>
+<p>200.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p><strong>10</strong></p>
+</td>
+<td>
+<p><strong>Câu 10</strong></p>
+</td>
+<td>
+<p><strong>300.000 VNĐ</strong></p>
+</td>
+<td>
+<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>11</p>
+</td>
+<td>
+<p>Câu 11</p>
+</td>
+<td>
+<p>350.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>12</p>
+</td>
+<td>
+<p>Câu 12</p>
+</td>
+<td>
+<p>400.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>13</p>
+</td>
+<td>
+<p>Câu 13</p>
+</td>
+<td>
+<p>500.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p>14</p>
+</td>
+<td>
+<p>Câu 14</p>
+</td>
+<td>
+<p>650.000 VNĐ</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<p><strong>15</strong></p>
+</td>
+<td>
+<p><strong>Câu 15</strong></p>
+</td>
+<td>
+<p><strong>1.000.0000 VNĐ</strong></p>
+</td>
+<td>
+<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>
+<p style="text-align: justify;">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>
+<p style="text-align: justify;">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>
+<p style="text-align: justify;">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>
+<p style="text-align: justify;">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>
+<p style="text-align: justify;">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>";}s:6:"COOKIE";a:2:{s:9:"PHPSESSID";s:26:"kta8f1sj3qcekiurr23it6dra0";s:13:"_csrf-backend";s:139:"b272ea351ce15db1e4e0a390d04c476505de754703ef0a89cf121f2c6c10438ba:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"vQ4hN82HO2x1uzF31yg4bubyE8pc7eCt";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:2:{s:10:"admin_info";a:9:{s:2:"id";s:1:"1";s:8:"username";s:5:"admin";s:8:"password";s:32:"53f869d4664b7f4985e7c295b100b633";s:8:"fullname";s:5:"admin";s:5:"phone";N;s:6:"status";s:1:"1";s:7:"role_id";s:1:"1";s:11:"create_date";N;s:11:"update_date";N;}s:15:"permission_role";N;}}s:3:"log";a:1:{s:8:"messages";a:16:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1476625070.752876;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1476625070.752876;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1476625070.758877;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1476625070.7638769;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1476625070.7648771;i:4;a:0:{}}i:5;a:5:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1476625070.7668769;i:4;a:0:{}}i:6;a:5:{i:0;s:30:"Route requested: 'system/rule'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1476625070.7668769;i:4;a:0:{}}i:7;a:5:{i:0;s:25:"Route to run: system/rule";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1476625070.768877;i:4;a:0:{}}i:8;a:5:{i:0;s:66:"Running action: backend\controllers\SystemController::actionRule()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1476625070.768877;i:4;a:0:{}}i:9;a:5:{i:0;s:43:"SELECT * FROM mm_system WHERE name = "rule"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7718771;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:10;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=ai_la_trieu_phu";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1476625070.7718771;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:15;a:5:{i:0;s:27:"SHOW COLUMNS FROM mm_system";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.787878;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:117;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:61;s:8:"function";s:9:"loadParam";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:18;a:5:{i:0;s:4215:"UPDATE mm_system SET `name`= 'rule',`content`= '<table style=\"width: 100%; text-align: center; margin-left: auto; margin-right: auto;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr style=\"background-color: #68a5de;\">\r\n<td>\r\n<p><strong>STT</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu hỏi </strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mức tiền tương ứng</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Ghi chú</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>1</p>\r\n</td>\r\n<td>\r\n<p>Câu 1</p>\r\n</td>\r\n<td>\r\n<p>5.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>2</p>\r\n</td>\r\n<td>\r\n<p>Câu 2</p>\r\n</td>\r\n<td>\r\n<p>7.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>3</p>\r\n</td>\r\n<td>\r\n<p>Câu 3</p>\r\n</td>\r\n<td>\r\n<p>10.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>4</p>\r\n</td>\r\n<td>\r\n<p>Câu 4</p>\r\n</td>\r\n<td>\r\n<p>20.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>50.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>6</p>\r\n</td>\r\n<td>\r\n<p>Câu 6</p>\r\n</td>\r\n<td>\r\n<p>70.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>7</p>\r\n</td>\r\n<td>\r\n<p>Câu 7</p>\r\n</td>\r\n<td>\r\n<p>100.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>8</p>\r\n</td>\r\n<td>\r\n<p>Câu 8</p>\r\n</td>\r\n<td>\r\n<p>150.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>9</p>\r\n</td>\r\n<td>\r\n<p>Câu 9</p>\r\n</td>\r\n<td>\r\n<p>200.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>300.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>11</p>\r\n</td>\r\n<td>\r\n<p>Câu 11</p>\r\n</td>\r\n<td>\r\n<p>350.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>12</p>\r\n</td>\r\n<td>\r\n<p>Câu 12</p>\r\n</td>\r\n<td>\r\n<p>400.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>13</p>\r\n</td>\r\n<td>\r\n<p>Câu 13</p>\r\n</td>\r\n<td>\r\n<p>500.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>14</p>\r\n</td>\r\n<td>\r\n<p>Câu 14</p>\r\n</td>\r\n<td>\r\n<p>650.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>1.000.0000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p style=\"text-align: justify;\">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>\r\n<p style=\"text-align: justify;\">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>\r\n<p style=\"text-align: justify;\">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>\r\n<p style=\"text-align: justify;\">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>\r\n<p style=\"text-align: justify;\">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>\r\n<p style=\"text-align: justify;\">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>',`update_date`= 1476625070 WHERE 1 ";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1476625070.794879;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:80;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:21;a:5:{i:0;s:84:"Rendering view file: D:\Project\WorkSpace\ailatrieuphu\backend\views\system\rule.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1476625070.943887;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:27;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:88:"Rendering view file: D:\Project\WorkSpace\ailatrieuphu/backend/views/modules/message.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1476625070.9508879;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"D:\Project\WorkSpace\ailatrieuphu\backend\views\system\rule.php";s:4:"line";i:10;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:27;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:85:"Rendering view file: D:\Project\WorkSpace\ailatrieuphu\backend\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1476625070.9518881;i:4;a:1:{i:0;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:27;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:3637576;s:4:"time";d:0.23101401329040527;s:8:"messages";a:8:{i:11;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=ai_la_trieu_phu";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1476625070.7718771;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:12;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=ai_la_trieu_phu";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1476625070.7868781;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:13;a:5:{i:0;s:43:"SELECT * FROM mm_system WHERE name = "rule"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7868781;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:43:"SELECT * FROM mm_system WHERE name = "rule"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7868781;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:27:"SHOW COLUMNS FROM mm_system";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.787878;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:117;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:61;s:8:"function";s:9:"loadParam";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:27:"SHOW COLUMNS FROM mm_system";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7928791;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:117;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:61;s:8:"function";s:9:"loadParam";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:4215:"UPDATE mm_system SET `name`= 'rule',`content`= '<table style=\"width: 100%; text-align: center; margin-left: auto; margin-right: auto;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr style=\"background-color: #68a5de;\">\r\n<td>\r\n<p><strong>STT</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu hỏi </strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mức tiền tương ứng</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Ghi chú</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>1</p>\r\n</td>\r\n<td>\r\n<p>Câu 1</p>\r\n</td>\r\n<td>\r\n<p>5.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>2</p>\r\n</td>\r\n<td>\r\n<p>Câu 2</p>\r\n</td>\r\n<td>\r\n<p>7.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>3</p>\r\n</td>\r\n<td>\r\n<p>Câu 3</p>\r\n</td>\r\n<td>\r\n<p>10.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>4</p>\r\n</td>\r\n<td>\r\n<p>Câu 4</p>\r\n</td>\r\n<td>\r\n<p>20.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>50.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>6</p>\r\n</td>\r\n<td>\r\n<p>Câu 6</p>\r\n</td>\r\n<td>\r\n<p>70.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>7</p>\r\n</td>\r\n<td>\r\n<p>Câu 7</p>\r\n</td>\r\n<td>\r\n<p>100.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>8</p>\r\n</td>\r\n<td>\r\n<p>Câu 8</p>\r\n</td>\r\n<td>\r\n<p>150.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>9</p>\r\n</td>\r\n<td>\r\n<p>Câu 9</p>\r\n</td>\r\n<td>\r\n<p>200.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>300.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>11</p>\r\n</td>\r\n<td>\r\n<p>Câu 11</p>\r\n</td>\r\n<td>\r\n<p>350.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>12</p>\r\n</td>\r\n<td>\r\n<p>Câu 12</p>\r\n</td>\r\n<td>\r\n<p>400.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>13</p>\r\n</td>\r\n<td>\r\n<p>Câu 13</p>\r\n</td>\r\n<td>\r\n<p>500.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>14</p>\r\n</td>\r\n<td>\r\n<p>Câu 14</p>\r\n</td>\r\n<td>\r\n<p>650.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>1.000.0000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p style=\"text-align: justify;\">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>\r\n<p style=\"text-align: justify;\">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>\r\n<p style=\"text-align: justify;\">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>\r\n<p style=\"text-align: justify;\">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>\r\n<p style=\"text-align: justify;\">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>\r\n<p style=\"text-align: justify;\">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>',`update_date`= 1476625070 WHERE 1 ";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1476625070.794879;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:80;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:4215:"UPDATE mm_system SET `name`= 'rule',`content`= '<table style=\"width: 100%; text-align: center; margin-left: auto; margin-right: auto;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr style=\"background-color: #68a5de;\">\r\n<td>\r\n<p><strong>STT</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu hỏi </strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mức tiền tương ứng</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Ghi chú</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>1</p>\r\n</td>\r\n<td>\r\n<p>Câu 1</p>\r\n</td>\r\n<td>\r\n<p>5.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>2</p>\r\n</td>\r\n<td>\r\n<p>Câu 2</p>\r\n</td>\r\n<td>\r\n<p>7.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>3</p>\r\n</td>\r\n<td>\r\n<p>Câu 3</p>\r\n</td>\r\n<td>\r\n<p>10.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>4</p>\r\n</td>\r\n<td>\r\n<p>Câu 4</p>\r\n</td>\r\n<td>\r\n<p>20.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>50.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>6</p>\r\n</td>\r\n<td>\r\n<p>Câu 6</p>\r\n</td>\r\n<td>\r\n<p>70.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>7</p>\r\n</td>\r\n<td>\r\n<p>Câu 7</p>\r\n</td>\r\n<td>\r\n<p>100.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>8</p>\r\n</td>\r\n<td>\r\n<p>Câu 8</p>\r\n</td>\r\n<td>\r\n<p>150.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>9</p>\r\n</td>\r\n<td>\r\n<p>Câu 9</p>\r\n</td>\r\n<td>\r\n<p>200.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>300.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>11</p>\r\n</td>\r\n<td>\r\n<p>Câu 11</p>\r\n</td>\r\n<td>\r\n<p>350.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>12</p>\r\n</td>\r\n<td>\r\n<p>Câu 12</p>\r\n</td>\r\n<td>\r\n<p>400.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>13</p>\r\n</td>\r\n<td>\r\n<p>Câu 13</p>\r\n</td>\r\n<td>\r\n<p>500.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>14</p>\r\n</td>\r\n<td>\r\n<p>Câu 14</p>\r\n</td>\r\n<td>\r\n<p>650.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>1.000.0000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p style=\"text-align: justify;\">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>\r\n<p style=\"text-align: justify;\">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>\r\n<p style=\"text-align: justify;\">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>\r\n<p style=\"text-align: justify;\">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>\r\n<p style=\"text-align: justify;\">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>\r\n<p style=\"text-align: justify;\">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>',`update_date`= 1476625070 WHERE 1 ";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1476625070.9418869;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:80;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}}}s:2:"db";a:1:{s:8:"messages";a:6:{i:13;a:5:{i:0;s:43:"SELECT * FROM mm_system WHERE name = "rule"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7868781;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:43:"SELECT * FROM mm_system WHERE name = "rule"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7868781;i:4;a:2:{i:0;a:5:{s:4:"file";s:59:"D:\Project\WorkSpace\ailatrieuphu\backend\models\System.php";s:4:"line";i:19;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:16;s:8:"function";s:13:"getDataByName";s:5:"class";s:21:"backend\models\System";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:27:"SHOW COLUMNS FROM mm_system";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.787878;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:117;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:61;s:8:"function";s:9:"loadParam";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:27:"SHOW COLUMNS FROM mm_system";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1476625070.7928791;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:117;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:61;s:8:"function";s:9:"loadParam";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:4215:"UPDATE mm_system SET `name`= 'rule',`content`= '<table style=\"width: 100%; text-align: center; margin-left: auto; margin-right: auto;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr style=\"background-color: #68a5de;\">\r\n<td>\r\n<p><strong>STT</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu hỏi </strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mức tiền tương ứng</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Ghi chú</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>1</p>\r\n</td>\r\n<td>\r\n<p>Câu 1</p>\r\n</td>\r\n<td>\r\n<p>5.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>2</p>\r\n</td>\r\n<td>\r\n<p>Câu 2</p>\r\n</td>\r\n<td>\r\n<p>7.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>3</p>\r\n</td>\r\n<td>\r\n<p>Câu 3</p>\r\n</td>\r\n<td>\r\n<p>10.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>4</p>\r\n</td>\r\n<td>\r\n<p>Câu 4</p>\r\n</td>\r\n<td>\r\n<p>20.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>50.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>6</p>\r\n</td>\r\n<td>\r\n<p>Câu 6</p>\r\n</td>\r\n<td>\r\n<p>70.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>7</p>\r\n</td>\r\n<td>\r\n<p>Câu 7</p>\r\n</td>\r\n<td>\r\n<p>100.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>8</p>\r\n</td>\r\n<td>\r\n<p>Câu 8</p>\r\n</td>\r\n<td>\r\n<p>150.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>9</p>\r\n</td>\r\n<td>\r\n<p>Câu 9</p>\r\n</td>\r\n<td>\r\n<p>200.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>300.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>11</p>\r\n</td>\r\n<td>\r\n<p>Câu 11</p>\r\n</td>\r\n<td>\r\n<p>350.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>12</p>\r\n</td>\r\n<td>\r\n<p>Câu 12</p>\r\n</td>\r\n<td>\r\n<p>400.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>13</p>\r\n</td>\r\n<td>\r\n<p>Câu 13</p>\r\n</td>\r\n<td>\r\n<p>500.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>14</p>\r\n</td>\r\n<td>\r\n<p>Câu 14</p>\r\n</td>\r\n<td>\r\n<p>650.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>1.000.0000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p style=\"text-align: justify;\">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>\r\n<p style=\"text-align: justify;\">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>\r\n<p style=\"text-align: justify;\">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>\r\n<p style=\"text-align: justify;\">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>\r\n<p style=\"text-align: justify;\">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>\r\n<p style=\"text-align: justify;\">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>',`update_date`= 1476625070 WHERE 1 ";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1476625070.794879;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:80;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:4215:"UPDATE mm_system SET `name`= 'rule',`content`= '<table style=\"width: 100%; text-align: center; margin-left: auto; margin-right: auto;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr style=\"background-color: #68a5de;\">\r\n<td>\r\n<p><strong>STT</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu hỏi </strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mức tiền tương ứng</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Ghi chú</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>1</p>\r\n</td>\r\n<td>\r\n<p>Câu 1</p>\r\n</td>\r\n<td>\r\n<p>5.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>2</p>\r\n</td>\r\n<td>\r\n<p>Câu 2</p>\r\n</td>\r\n<td>\r\n<p>7.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>3</p>\r\n</td>\r\n<td>\r\n<p>Câu 3</p>\r\n</td>\r\n<td>\r\n<p>10.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>4</p>\r\n</td>\r\n<td>\r\n<p>Câu 4</p>\r\n</td>\r\n<td>\r\n<p>20.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 5</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>50.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 1</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>6</p>\r\n</td>\r\n<td>\r\n<p>Câu 6</p>\r\n</td>\r\n<td>\r\n<p>70.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>7</p>\r\n</td>\r\n<td>\r\n<p>Câu 7</p>\r\n</td>\r\n<td>\r\n<p>100.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>8</p>\r\n</td>\r\n<td>\r\n<p>Câu 8</p>\r\n</td>\r\n<td>\r\n<p>150.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>9</p>\r\n</td>\r\n<td>\r\n<p>Câu 9</p>\r\n</td>\r\n<td>\r\n<p>200.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 10</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>300.000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 2</strong></p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>11</p>\r\n</td>\r\n<td>\r\n<p>Câu 11</p>\r\n</td>\r\n<td>\r\n<p>350.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>12</p>\r\n</td>\r\n<td>\r\n<p>Câu 12</p>\r\n</td>\r\n<td>\r\n<p>400.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>13</p>\r\n</td>\r\n<td>\r\n<p>Câu 13</p>\r\n</td>\r\n<td>\r\n<p>500.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p>14</p>\r\n</td>\r\n<td>\r\n<p>Câu 14</p>\r\n</td>\r\n<td>\r\n<p>650.000 VNĐ</p>\r\n</td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><strong>15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Câu 15</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>1.000.0000 VNĐ</strong></p>\r\n</td>\r\n<td>\r\n<p><strong>Mốc câu hỏi quan trọng số 3</strong></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p style=\"text-align: justify;\">- Người chơi lần lượt trả lời các câu hỏi từ 1 đến 15, có 3 mốc quan trọng là câu hỏi số 5 – câu hỏi số 10 – câu hỏi số 15</p>\r\n<p style=\"text-align: justify;\">- Người chơi có quyền trợ giúp là 50-50. Bắt đầu từ câu hỏi số 6, người chơi có thêm 1 quyền trợ giúp nữa là hỏi ý kiến khán giả</p>\r\n<p style=\"text-align: justify;\">- Người chơi có 20s để trả lời mỗi câu hỏi, nếu quá 20s không trả lời được thì coi như câu hỏi đó người chơi trả lời sai</p>\r\n<p style=\"text-align: justify;\">- Người chơi bắt buộc phải trả lời từ câu hỏi số 1 đến câu hỏi số 5. Bắt đầu từ câu hỏi số 6, người chơi có quyền dừng cuộc chơi bất kỳ lúc nào.</p>\r\n<p style=\"text-align: justify;\">Nếu người chơi đồng ý dừng cuộc chơi, số tiền thưởng người chơi nhận được bằng số tiền tại mốc câu hỏi,</p>\r\n<p style=\"text-align: justify;\">nếu trả lời sai ở câu hỏi nào thì số tiền thưởng nhận được quay về mốc câu hỏi số 5, câu hỏi số 10 tùy vào mức độ trả lời của bạn</p>',`update_date`= 1476625070 WHERE 1 ";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1476625070.9418869;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\models\CommonDB.php";s:4:"line";i:80;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:74:"D:\Project\WorkSpace\ailatrieuphu\backend\controllers\SystemController.php";s:4:"line";i:20;s:8:"function";s:9:"updateRow";s:5:"class";s:23:"backend\models\CommonDB";s:4:"type";s:2:"::";}}}}}s:6:"assets";a:6:{s:33:"/js/plugin/tinymce/tinymce.min.js";a:9:{s:10:"sourcePath";N;s:8:"basePath";N;s:7:"baseUrl";s:0:"";s:7:"depends";a:1:{i:0;s:23:"backend\assets\AppAsset";}s:2:"js";a:1:{i:0;s:32:"js/plugin/tinymce/tinymce.min.js";}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:23:"backend\assets\AppAsset";a:9:{s:8:"basePath";s:45:"D:\Project\WorkSpace\ailatrieuphu\backend\web";s:7:"baseUrl";s:0:"";s:3:"css";a:3:{i:0;s:14:"css/custom.css";i:1;s:17:"css/jquery-ui.css";i:2;s:37:"js/plugin/jqueryupload/uploadfile.css";}s:2:"js";a:6:{i:0;s:16:"js/jquery.min.js";i:1;s:15:"js/jquery-ui.js";i:2;s:19:"js/bootstrap.min.js";i:3;s:12:"js/common.js";i:4;s:17:"js/jquery.form.js";i:5;s:43:"js/plugin/jqueryupload/jquery.uploadfile.js";}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:60:"D:\Project\WorkSpace\ailatrieuphu\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\web\assets\7387e259";s:7:"baseUrl";s:16:"/assets/7387e259";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:58:"D:\Project\WorkSpace\ailatrieuphu/vendor\bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\web\assets\2a282890";s:7:"baseUrl";s:16:"/assets/2a282890";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:61:"D:\Project\WorkSpace\ailatrieuphu/vendor\bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:61:"D:\Project\WorkSpace\ailatrieuphu\backend\web\assets\ca73de1e";s:7:"baseUrl";s:16:"/assets/ca73de1e";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"/js/plugin/tinymce/config.js";a:9:{s:10:"sourcePath";N;s:8:"basePath";N;s:7:"baseUrl";s:0:"";s:7:"depends";a:1:{i:0;s:23:"backend\assets\AppAsset";}s:2:"js";a:1:{i:0;s:27:"js/plugin/tinymce/config.js";}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"580382aeb945d";s:3:"url";s:34:"http://localhost:10002/system/rule";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:3:"::1";s:4:"time";i:1476625070;s:10:"statusCode";i:200;s:8:"sqlCount";i:3;s:9:"mailCount";i:0;}}
