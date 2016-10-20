@@ -36,7 +36,7 @@ AppAsset::register($this);
                 <div class="loginmodal-container">
                     <h1>Login</h1><br>
                     <form>
-                        <input type="text" name="username" placeholder="Username">
+                        <input type="text" data-id="123" name="username" placeholder="Username">
                         <input type="password" name="password" placeholder="Password">
                         <?php echo Html::submitInput('Login',['class'=>'login loginmodal-submit bt_login']);?>
                     </form>
